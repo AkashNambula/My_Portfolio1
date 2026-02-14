@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Eswar Akash Nambula</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Simplified Skills Page Styles */
+        .skills-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .skill-category-group {
+            margin-bottom: 2.5rem;
+            position: relative;
+            padding-left: 20px;
+            border-left: 2px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .skill-category-title {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-family: var(--font-mono);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .clean-skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .clean-skill-text {
+            color: var(--text-primary);
+            font-size: 1rem;
+            position: relative;
+            padding-bottom: 2px;
+            transition: var(--transition);
+        }
+
+        .clean-skill-text:hover {
+            color: var(--accent-color);
+        }
+
+        /* Light mode adjustments */
+        body.light-mode .clean-skill-text {
+            color: var(--text-primary);
+        }
+
+        body.light-mode .skill-category-group {
+            border-left-color: rgba(0, 0, 0, 0.1);
+        }
+
+        /* Top Right Heading specific for this page */
+        .section-header-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <!-- Logo removed -->
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html" class="active">Skills</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <main class="main-content" style="margin-left: 0; width: 100%;">
+        <section class="section">
+            <div class="container skills-container">
+                <!-- Heading Top Left -->
+                <h2 style="text-align: left; margin-bottom: 3rem;">Technical Skills</h2>
+
+                <div class="skill-category-group">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="clean-skill-list">
+                        <span class="clean-skill-text">Java</span>
+                        <span class="clean-skill-text">Python</span>
+                        <span class="clean-skill-text">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category-group">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="clean-skill-list">
+                        <span class="clean-skill-text">HTML</span>
+                        <span class="clean-skill-text">CSS</span>
+                        <span class="clean-skill-text">React.js</span>
+                        <span class="clean-skill-text">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category-group">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <div class="clean-skill-list">
+                        <span class="clean-skill-text">Spring Boot</span>
+                        <span class="clean-skill-text">MySQL</span>
+                        <span class="clean-skill-text">REST APIs</span>
+                    </div>
+                </div>
+
+                <!-- Removed Data Science & AI as requested -->
+
+                <div class="skill-category-group">
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <div class="clean-skill-list">
+                        <span class="clean-skill-text">Git</span>
+                        <span class="clean-skill-text">GitHub</span>
+                        <span class="clean-skill-text">VS Code</span>
+                        <span class="clean-skill-text">Antigravity</span>
+                    </div>
+                </div>
+
+                <div class="skill-category-group">
+                    <h3 class="skill-category-title">Core Concepts</h3>
+                    <div class="clean-skill-list">
+                        <span class="clean-skill-text">Object-Oriented Programming (OOPs)</span>
+                        <span class="clean-skill-text">Exception Handling</span>
+                        <span class="clean-skill-text">Collections Framework</span>
+                        <span class="clean-skill-text">DBMS</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
